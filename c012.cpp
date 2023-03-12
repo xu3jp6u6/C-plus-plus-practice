@@ -10,6 +10,7 @@ int sum(int n)
     else
         return(sum(n - 1) + n);
 }
+//遞迴
 int  main()
 {
     cout << sum(9);
