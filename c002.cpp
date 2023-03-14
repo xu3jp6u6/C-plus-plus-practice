@@ -10,4 +10,5 @@ int main(void)
     cout << "beep=" << beep;
     cout << i << endl;
     return 0;
+    //ASCII十進位值
 }
