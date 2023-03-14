@@ -8,7 +8,8 @@ int main()
 	int a, b;
 	char c = '76';
 	cin >> a >> b;
-	cout << "b-a=" << a - b << endl;
+	cout << "a-b=" << a - b << endl;
 	cout << "ch=" << c << endl;
+	//ASCII碼
 }
 
