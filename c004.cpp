@@ -8,6 +8,7 @@ int main()
     float f;
     cin >> f;
     cout << "f*f" << "=" << f*f << endl;
+    //平方
 }
 
 \
