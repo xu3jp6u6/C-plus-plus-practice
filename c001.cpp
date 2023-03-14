@@ -12,4 +12,5 @@ int main(void)
     cout << "You have " << a << " dog!" << "\n";
     return 0;
 
+    //輸入練習
 }
