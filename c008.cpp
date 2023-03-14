@@ -10,5 +10,6 @@ int main()
 	int a = 36;
 	cout << i << endl;
 	cout << a*b << endl;
+	//前置處理器定義i
 }
 
