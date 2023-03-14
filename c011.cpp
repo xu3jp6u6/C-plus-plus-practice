@@ -17,9 +17,11 @@ int main()
         cout << "input num :";
         cin >> num[i];
     } while (num[i++] > 0);
+    //為一維陣列設值且每個值須大於0
     for (i = 0; i < 5; i++)
         sum += num[i];
     cout << "average =" << sum / 5;
+    //算平均
 }
 
 
