@@ -9,5 +9,6 @@ int main()
     cout << "x=";
     cin >> x;
     cout << "number=" << "-" << x << endl;
+    //輸入數字加符號
 }
 
