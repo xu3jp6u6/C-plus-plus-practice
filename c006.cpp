@@ -8,5 +8,6 @@ int main()
 	float f = 2.936f;
 	int i = 5;
 	cout << "f*i=" << f * i<<"\n"<< "f/i =" << f / i << endl;
+	//浮點數乘除
 }
 
