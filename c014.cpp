@@ -7,5 +7,6 @@ int main()
 {
 	short var;
 	short *ptr = &var;
-	cout << *ptr;
+	cout << ptr;
+	//ptr為指向var的指標
 }
