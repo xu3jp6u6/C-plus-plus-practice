@@ -7,7 +7,6 @@ int main()
 {
 	int a[10];
 	int b;
-	float x=0;
 	for (int i = 0; i < 10; i++)
 	{
 		cout << "輸入 : ";
@@ -19,6 +18,7 @@ int main()
 	}
 	cout << "&b=" << &b << endl;
 	cout << "&a=" << &a << endl;
+	//顯示int型態的陣列和int型態的變數的位址
 }
 
 
