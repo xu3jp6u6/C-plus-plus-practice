@@ -16,6 +16,7 @@ public:
     {
         return 2 * (length * width + length * height + width * height);
     }
+    //設定成員函數
 };
 int main()
 {
