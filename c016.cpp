@@ -15,4 +15,4 @@ double inch(int *p1)
 {
     return *p1 * 0.394;
 }
-
+//傳遞指標到函數中
