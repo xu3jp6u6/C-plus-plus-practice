@@ -17,6 +17,7 @@ public:
 	}
 	friend int area(CWin);
 	friend void show_area(CWin);
+	//友誼函數讓函數可以存取私有成員
 };
 int area(CWin w)
 {
@@ -30,5 +31,5 @@ int main()
 {
 	CWin win1;
 	win1.set_data('B', 50,40);
-	show_area(win1);
+	show_area(win1);//顯示id和面積
 }
