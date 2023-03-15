@@ -15,5 +15,6 @@ int main()
 	obj.b = 3;
 	obj.c = obj.a + obj.b;
 	cout << "a = " << obj.a << ",b = " << obj.b << ",c = " << obj.c;
+	//將資料成員設值
 }
 
