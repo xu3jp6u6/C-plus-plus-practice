@@ -15,13 +15,13 @@ public:
     }
     void set_title()
     {
-        strcpy_s(title, "windows title");
+        strcpy_s(title, "windows title");// 使用 strcpy_s 函數將 "windows title" 複製到 title 字元陣列中。
     }
     void display()
     {
         cout << title;
     }
-
+    //設定多個成員函數
 };
 int main()
 {
