@@ -6,7 +6,7 @@
 using namespace std;
 int main()
 {
-    char str[100];
+    char str[20];
     char *ptr = str;
     cin >> str;
 
