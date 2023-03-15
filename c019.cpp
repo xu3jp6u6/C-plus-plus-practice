@@ -8,9 +8,7 @@ int main()
 {
 	char y[] ="dsfsdf efew fewf";
 	int n = sizeof(y);
-	cout << n << endl;
 	char* ptr = y;
-	cout << strlen(ptr) << endl;
 	display(ptr, 8,n);
 
 }
@@ -18,6 +16,5 @@ void display(char* a, int b,int c)
 {   
 	for (int i = b; i <= c-1; i++)
 		cout << a[i] ;
-	
-
+	//顯示從指定個數到結束的字串
 }
