@@ -7,16 +7,15 @@ void square(int*);
 int main()
 {
     int a[3] = {2,5,7};
-    int* ptr=a;
     for (int i = 0;i<3;i++)
     {    
-        square(ptr+i);
+        square(a+i);
     }
     for (int i = 0; i < 3; i++)
     {
         cout << a[i] <<" ";
     }
-    
+    //a+i即代表a[i]的位址
 }
 void square(int* arr)
 {
