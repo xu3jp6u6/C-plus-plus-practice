@@ -17,7 +17,7 @@ public:
 	}
 	friend int area(CWin);
 	friend void show_area(CWin);
-	//友誼函數讓函數可以存取私有成員
+	//友誼函數讓類別外的函數可以存取私有成員。
 };
 int area(CWin w)
 {
