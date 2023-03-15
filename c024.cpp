@@ -23,6 +23,7 @@ class calculator
     {
         cout << a / b;
     }
+ //設定包含加減乘除成員函數的類別
 };
 int main()
 {
