@@ -28,6 +28,7 @@ public:
     {
         cout << width << "," << height << "," << weight<<endl;
     }
+    //函數的多載，讓相同名稱的函數有不同的功能
 };
 int main()
 {
