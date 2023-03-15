@@ -39,5 +39,6 @@ void num(int *p1, int *p2, int *p3)
 		else
 			cout << *p2 << " " << *p1;
 	}
+	//藉由傳指標到函數中進行排序
 
 }
